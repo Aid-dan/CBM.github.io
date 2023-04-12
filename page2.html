@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Male Calorie Calculator</title>
+    <link href="../CSS/page2.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <section id="sec1">
+      <form class="form1" id="form">
+        <div>
+          <table class="content-table">
+            <thead>
+              <th colspan="2">Please enter your information below:</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <label for="weight">
+                    Enter your weight (lbs)<input
+                      class="one"
+                      type="number"
+                      id="weight"
+                      name="weight"
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="height"> Enter your height (in)</label
+                  ><input class="two" type="number" id="height" name="height" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="age">
+                    Enter your age<input
+                      class="three"
+                      type="number"
+                      id="age"
+                      name="age"
+                  /></label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="space">
+            <label class="custom-select">
+              <select id="list" name="fit">
+                <option class="opt" value="1.27">Little to no exercise ⬇️</option>
+            
+                <option class="opt" value="1.37">
+                  Light exercise 1-3 days a week
+                </option>
+            
+                <option class="opt" value="1.55">
+                  Moderate exercise 3-5 days a week
+                </option>
+            
+                <option class="opt" value="1.725">
+                  Hard exercise 6-7 days a week
+                </option>
+            
+                <option class="opt" value="1.9">
+                  Active with a physically demanding job
+                </option>
+              </select>
+            </label>
+          </div>
+
+
+
+        </div>
+        
+        
+          
+
+           <div id="div2">
+              <table class="table2">
+                <thead>
+                  <th>What is your fitness goal?</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <label
+                        ><input type="radio" name="diet" value="cutting" />
+                        Cutting</label
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <input type="radio" name="diet" value="bulking" />
+                        Bulking</label
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label
+                        ><input type="radio" name="diet" value="maintaining" />
+                        Maintaining</label
+                      >
+                    </td>
+                  </tr>
+                  <br />
+                  <tr>
+                    <td>
+                      <div>
+
+                        <button class="button-85" type="submit" onclick="checkDiet()">
+                        Save
+                         </button>
+                        
+
+
+                        <button class="button-85" style="margin-left: 50px;">
+                          <a href="./page4.html"> Get Recipes
+                         </button>
+                      </div>
+                       
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          
+    
+            <div class="back">
+              <img
+                src="https://w0.peakpx.com/wallpaper/57/913/HD-wallpaper-gym-motivation-design-iphone-nodaysoff-power-push-samsung-saying.jpg"
+                alt=""
+              />
+              
+                
+                <button class="butt"><a href="./index.html">Give up :(</button>
+              
+              
+            </div>
+              
+                
+              
+         
+              
+          
+          
+       
+      </form>
+   
+    <script src="../JAVA/page2.js"></script>
+  </body>
+</html>
